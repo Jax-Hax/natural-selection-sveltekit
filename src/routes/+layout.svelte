@@ -25,7 +25,7 @@
 	}
 	button:hover {
 		background-color: white; /* Green */
-		box-shadow: 0 2px;
+		box-shadow: 0 4px;
 		color: #0077b6;
 		transform: translateY(-0.25em);
 		transition: transform 0.25s;
