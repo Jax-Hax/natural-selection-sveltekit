@@ -4,25 +4,19 @@
 			<p>
 				Even biologists don't know the full story, like how did the first self-replicating organism form? But some of it is explainable, and that is what this is for. Whether you are a teacher trying to explain it to kids, or someone just trying to learn, this simple demonstration acts as an interactive way to figure out how evolution works. 
 			</p>
-			<button> Play </button>
-			<button> How was this made? </button>
+			<a href="/simulation"><button> Play </button></a>
+			<a href="/howitworks"><button> How was this made? </button></a>
 	</section>
 	</body>
 <style>
-	body {
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-		height: auto !important;
-	}
-
+body { min-height: 100%; overflow:hidden}
 	section {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 200px 4vw;
-		justify-content: space-between;
+		padding: 5vw 2vw 100em 2vw;
+		justify-content: center;
 		color: white;
 		gap: 1rem;
 	}
@@ -30,7 +24,7 @@
 		background: linear-gradient(90deg, #1037a3, #0098fe);
 	}
 	#attentioncatcher h1 {
-		font-size: 8vw;
+		font-size: 3.5rem;
 		color: white;
 	}
 	#attentioncatcher p {
